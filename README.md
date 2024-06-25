@@ -1,15 +1,5 @@
 # Lorem ipsum generator
 
-[![PyPI - Downloads](https://pepy.tech/badge/python-lorem)](https://pepy.tech/count/python-lorem)
-[![PyPI - Version](https://img.shields.io/pypi/v/python-lorem.svg)](https://pypi.org/project/python-lorem)
-[![PyPI - Format](https://img.shields.io/pypi/format/python-lorem.svg)](https://pypi.org/project/python-lorem)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-lorem.svg)](https://pypi.org/project/python-lorem)
-
-<!-- [![Travis CI - Status](https://travis-ci.com/JarryShaw/lorem.svg)](https://travis-ci.com/JarryShaw/lorem) -->
-[![Codecov - Coverage](https://codecov.io/gh/JarryShaw/lorem/branch/master/graph/badge.svg)](https://codecov.io/gh/JarryShaw/lorem)
-[![License](https://img.shields.io/github/license/jarryshaw/lorem.svg)](https://opensource.org/licenses/BSD-3-Clause)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-
 * [Installation](#installation)
 * [Usage](#usage)
 * [Testing](#testing)
@@ -40,13 +30,13 @@ text from its very original text:
 Simply run the following to install the current version from PyPI:
 
 ```sh
-pip install python-lorem
+pip install python-lorem-ipsum
 ```
 
 Or install the latest version from the git repository:
 
 ```sh
-git clone https://github.com/JarryShaw/lorem.git
+git clone https://github.com/adambirds/python-lorem-ipsum.git
 cd lorem
 pip install -e .
 # and to update at any time
