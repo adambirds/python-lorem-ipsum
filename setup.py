@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="python-lorem-ipsum",
-    version="1.1.1",
+    version="v1.1.1a",
     author="Adam Birds",
     author_email="adam.birds@adbwebdesigns.co.uk",
     description="Generate Lorem Ipsum Text",
