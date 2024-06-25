@@ -1,4 +1,4 @@
-name: Publish xkcd-pass to PyPI
+name: Publish python-lorem-ipsum to PyPI
 
 on: 
   push:
@@ -23,7 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
     # - name: Setup non-python dependencies.
@@ -47,7 +47,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Set up Python
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
     - name: Install Python dependencies
