@@ -27,7 +27,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
-    packages=setuptools.find_packages(where="src"),
+    packages=setuptools.find_packages(),
     include_package_data=True,
     python_requires=">=3.6",
 )
