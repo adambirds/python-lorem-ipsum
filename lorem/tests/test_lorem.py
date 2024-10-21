@@ -7,7 +7,7 @@ import unittest
 from typing import TYPE_CHECKING, TypeVar
 from unittest import mock
 
-import lorem
+from lorem import lorem
 
 if TYPE_CHECKING:
     from typing import Any, Callable, Iterator, Optional, Sequence
